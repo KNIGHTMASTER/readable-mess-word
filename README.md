@@ -7,3 +7,4 @@ It is a long established fact that a reader will be distracted by the readable c
 # Output
 It is a long eelsistbahd fcat taht a redear wlil be datierstcd by the rabadlee cnotent of a page when lnikoog at its layuot The pniot of usnig Lroem Iupsm is taht it has a mroe or lses nroaml dbrtitisiuon of leterts as ooseppd to uinsg Cnoetnt hree cenntot here miankg it look lkie ralabdee Esnlgih Many dsoetkp pblhsiunig pagecaks and web pgae eitodrs now use Leorm Iuspm as teihr dfulaet meodl text and a scerah for loerm ispum will uveoncr many web sites still in tiher ifcnnay Vruoias visenors have evvelod oevr the yraes smomteies by aincecdt smiometes on psrpuoe intecejd houumr and the like
 
+<img src="https://raw.githubusercontent.com/KNIGHTMASTER/Resources/master/READABLE-MESS-WORD/result.png" alt="result">
