@@ -1,20 +1,24 @@
 package com.zisal.rms;
 
-import javax.swing.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 /**
- * Created on 2/6/18.
+ * Created on 2/25/19.
  *
  * @author <a href="mailto:fauzi.knightmaster.achmad@gmail.com">Achmad Fauzi</a>
  */
-public class Main {
+@RestController
+public class AjaxMess {
 
-    public static void main(String [] args) {
-        String plainWord = JOptionPane.showInputDialog(null, "Please Input Plain Word to be randomize");
-        System.out.println(mess(plainWord));
+    @GetMapping("/mess")
+    public String condut(@RequestParam("text") String p_Text) {
+        return mess(p_Text);
     }
 
     private static String mess(String p_Word) {
