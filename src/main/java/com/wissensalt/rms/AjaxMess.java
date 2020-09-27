@@ -1,4 +1,4 @@
-package com.zisal.rms;
+package com.wissensalt.rms;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -17,7 +17,7 @@ import java.util.Random;
 public class AjaxMess {
 
     @GetMapping("/mess")
-    public String condut(@RequestParam("text") String p_Text) {
+    public String convert(@RequestParam("text") String p_Text) {
         return mess(p_Text);
     }
 
