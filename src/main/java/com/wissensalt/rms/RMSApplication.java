@@ -1,4 +1,4 @@
-package com.zisal.rms;
+package com.wissensalt.rms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

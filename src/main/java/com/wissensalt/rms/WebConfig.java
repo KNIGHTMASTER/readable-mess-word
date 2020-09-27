@@ -1,4 +1,4 @@
-package com.zisal.rms;
+package com.wissensalt.rms;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @author <a href="mailto:fauzi.knightmaster.achmad@gmail.com">Achmad Fauzi</a>
  */
 @EnableWebMvc
-@ComponentScan("com.zisal.rms")
+@ComponentScan("com.wissensalt.rms")
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
