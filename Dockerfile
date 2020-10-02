@@ -10,3 +10,5 @@ COPY ${JAR_FILE} /bin/app/boot.jar
 WORKDIR /bin/app
 
 ENTRYPOINT ["java","-jar","boot.jar"]
+
+EXPOSE 8081/tcp
